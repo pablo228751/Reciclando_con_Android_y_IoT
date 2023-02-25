@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/IdControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTROL LED"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/encender"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#004D40"
+        android:textColor="#FFFFFF"
+        android:text="ENCENDER" />
+
+    <Button
+        android:id="@+id/apagar"
+        android:layout_width="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C62828"
+        android:textColor="#FFFFFF"
+        android:text="APAGAR" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Mover Reflector por Grados"
+        android:textColor="#000000"
+        android:gravity="center">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:background="#9575CD"
+            android:textColor="#FFFFFF"
+            android:text="0°  " />
+        <Button
+            android:id="@+id/btn_30"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:background="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:text="30° " />
+        <Button
+            android:id="@+id/btn_60"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:background="#673AB7"
+            android:textColor="#FFFFFF"
+            android:text="60° " />
+
+        <Button
+            android:id="@+id/btn_90"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:background="#5E35B1"
+            android:text="90° "
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+        <Button
+            android:id="@+id/btn_120"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:background="#512DA8"
+            android:textColor="#FFFFFF"
+            android:text="120°" />
+        <Button
+            android:id="@+id/btn_150"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:background="#4527A0"
+            android:textColor="#FFFFFF"
+            android:text="150°" />
+        <Button
+            android:id="@+id/btn_180"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:background="#311B92"
+            android:textColor="#FFFFFF"
+            android:text="180°" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_monitoreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="MODO MONITOREO "
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/IdBufferin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando estado..."
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#E64A19"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/desconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#1A237E"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#FFFFFF"
+        android:text="DESCONECTAR" />
+</LinearLayout>
