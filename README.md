@@ -1,4 +1,4 @@
-<h1 align="center">Reciclando_con_Android_y_IoT(POO)</h1>
+<h1 align="center">Reciclando con Android  +  Arduino</h1>
 
 
 
